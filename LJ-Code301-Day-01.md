@@ -22,4 +22,4 @@ query.
 }
 
   In this case when the screen gos smaller than 480px, the background-color of
-the body changes to black. 
+the body changes to black. The lab cleared any doubt regarding this process. 
