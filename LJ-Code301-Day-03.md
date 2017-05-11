@@ -15,8 +15,6 @@ The syntax is as follow:
 
 $( "li" ).filter( ":even" ).css( "background-color", "red" );
 
-(source: https://oscarotero.com/jquery/).
-
 # LJ Code 301 - Day 3
 
   There are shorthand methods for some events such as .click() that can be used to attach or trigger
@@ -41,3 +39,5 @@ event handlers. The main method we did was .click().
   $( "#dataTable tbody" ).on( "click", "tr", function() {
   console.log( $( this ).text() );
 });
+
+(source: https://oscarotero.com/jquery/).
