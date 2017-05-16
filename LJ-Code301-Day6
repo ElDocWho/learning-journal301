@@ -1,0 +1,32 @@
+# LJ Code 301 - Day 6
+
+  Today I learned the difference between AJAX and JSON. Here are the definitions
+for each one:
+
+**JSON** Acronym for JavaScript Object Notation is a lightweight data
+interchange format. Its main application is in AJAX web application programming,
+where it serves as an alternative to the use of the XML format for data exchange
+between client and serve
+
+**Ajax** Acronym for asynchronous JavaScript and XML) is a set of Web
+development techniques using many Web technologies on the client side to
+create asynchronous Web applications.
+
+Jason I relate it very much to local storage, which is in what I have more
+experience. To pus a JSON object in local storage we stringifiy and to get out
+of local storage we parse. Here is an example of when you parse and when you
+stringify:
+
+**Storing data:**
+myObj = { "name":"John", "age":31, "city":"New York" };
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+**Retrieving data:**
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name;
+Try it Yourself »
+
+
+Source: Wikipedia, Stack Overflow and W3 schools.
