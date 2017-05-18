@@ -1,0 +1,33 @@
+# LJ Code 301 - Day 6
+
+  Today basically we learned about Node.js. This is the most useful definition
+I found regarding Node.js: Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side.
+
+Node.js fetures:
+**Asynchronous and Event Driven**
+**Very Fast**
+**Single Threaded but Highly Scalable**
+**No Buffering**
+**License, Node.js is released under the MIT license.**
+
+sources www.tutorialspoint.com and ww.wikipedia.com
+
+# LJ Code 301 - Day 7
+
+  We covered PostgreSQL. PostgreSQL is a powerful, open source object-relational
+database system.
+
+**Example of SQL valid input:**
+
+SELECT * FROM MY_TABLE;
+UPDATE MY_TABLE SET A = 5;
+INSERT INTO MY_TABLE VALUES (3, 'hi there');
+
+  This is used to update. In SQL we basically go by CRUD.
+
+Create --> Post
+Read -->   Get
+Update -->  Put
+Destroy --> Delete
+
+sources www.tutorialspoint.com www.postgresql.org
